@@ -15,7 +15,7 @@
 
   - name: copy default html file
     copy:
-      src: default_site.html
+      src: home/fiqz99/ansible/files
       dest: /var/www/html/index.html
       owner: root
       group: root
